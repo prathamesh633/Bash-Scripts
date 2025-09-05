@@ -1,0 +1,8 @@
+Find files larger than 10MB and move them to a backup folder.
+  find / -type f -size +10M -exec mv {} /backup/ \;
+
+Check if a server is reachable and diagnose connectivity.
+  Use ping, curl, or netstat. Example:
+  ping google.com
+  curl -I http://example.com
+
